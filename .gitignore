@@ -1,0 +1,7 @@
+pear-django/crawl/__pycache__/
+pear-django/crawl/migrations/
+pear-django/.idea/
+pear-django/pear/__pycache__/__init__.cpython-37.pyc
+pear-django/pear_auth/__pycache__/__init__.cpython-37.pyc
+*.pyc
+pear-django/pear_auth/migrations/
