@@ -1,0 +1,135 @@
+/*列表上方操作按钮区域*/
+.ant-card-body .table-operator {
+  margin-bottom: 18px;
+}
+
+/** Button按钮间距 */
+.table-operator .ant-btn {
+  margin-right: 6px
+}
+
+/*列表td的padding设置 可以控制列表大小*/
+.ant-table-tbody .ant-table-row td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*列表页面弹出modal*/
+.ant-modal-cust-warp {
+  height: 100%
+}
+
+/*弹出modal Y轴滚动条*/
+.ant-modal-cust-warp .ant-modal-body {
+  height: calc(100% - 110px) !important;
+  overflow-y: auto
+}
+
+/*弹出modal 先有content后有body 故滚动条控制在body上*/
+.ant-modal-cust-warp .ant-modal-content {
+  height: 90% !important;
+  overflow-y: hidden
+}
+
+/*列表中有图片的加这个样式 参考用户管理*/
+.anty-img-wrap {
+  height: 25px;
+  position: relative;
+}
+
+.anty-img-wrap > img {
+  max-height: 100%;
+}
+
+/*列表中范围查询样式*/
+.query-group-cust {
+  width: calc(50% - 10px)
+}
+
+.query-group-split-cust:before {
+  content: "~";
+  width: 20px;
+  display: inline-block;
+  text-align: center
+}
+
+.ant-table {
+  font-size: 11px;
+  line-height: 1;
+  table-layout: fixed;
+}
+
+.ant-table-tbody > tr > td:not(:last-child) {
+
+  min-width: 45px;
+  text-align: center !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ant-table-body > .ant-table-fixed > .ant-table-tbody > tr > td:last-child {
+  min-width: 190px;
+}
+.ant-table-body-inner > .ant-table-fixed > .ant-table-tbody > tr > td:last-child {
+  min-width: 50px;
+}
+.ant-table-tbody > tr > td:not(:last-child):hover {
+  text-overflow: inherit;
+  overflow: visible;
+  white-space: pre-line;
+  max-width: 80px;
+}
+
+.ant-table-thead > tr > th:not(:last-child):hover {
+  text-overflow: inherit;
+  overflow: visible;
+  white-space: pre-line;
+  max-width: 80px;
+}
+
+.ant-table-thead > tr > th:not(:last-child) {
+  max-width: 80px;
+  text-align: center !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ant-table-tbody > tr > th:last-child {
+  min-width: 160px;
+}
+
+.ant-table-middle > .ant-table-content > .ant-table-header > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-body > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-scroll > .ant-table-header > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-scroll > .ant-table-body > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-fixed-left > .ant-table-header > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-fixed-right > .ant-table-header > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-fixed-left > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-fixed-right > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-header > table > .ant-table-tbody > tr > td, .ant-table-middle > .ant-table-content > .ant-table-body > table > .ant-table-tbody > tr > td, .ant-table-middle > .ant-table-content > .ant-table-scroll > .ant-table-header > table > .ant-table-tbody > tr > td, .ant-table-middle > .ant-table-content > .ant-table-scroll > .ant-table-body > table > .ant-table-tbody > tr > td, .ant-table-middle > .ant-table-content > .ant-table-fixed-left > .ant-table-header > table > .ant-table-tbody > tr > td, .ant-table-middle > .ant-table-content > .ant-table-fixed-right > .ant-table-header > table > .ant-table-tbody > tr > td, .ant-table-middle > .ant-table-content > .ant-table-fixed-left > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-tbody > tr > td, .ant-table-middle > .ant-table-content > .ant-table-fixed-right > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-tbody > tr > td {
+  padding: 4px 0px !important;
+}
+
+.ant-col > .ant-tree {
+  font-size: 11px;
+}
+
+.ant-col > .ant-tree li > .ant-tree-node-content-wrapper {
+  padding: 0 0;
+}
+
+.field-hidden {
+  width: 100%;
+}
+
+.ant-table-expanded-row .ant-table {
+  top: 4px;
+}
+
+.ant-table-expanded-row .ant-table-tbody .ant-table-row td {
+  padding: 10px 0px;
+  line-height: 3;
+}
+
+.ant-table-expanded-row .ant-table-thead tr th {
+  padding: 10px 0px;
+}
+
+.ant-alert-message {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 11px;
+}
